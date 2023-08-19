@@ -1,16 +1,26 @@
-# flutter_shopping_list
+# Shopping List
 
-Shopping List
+The "Shopping List" app is developed using Flutter and allows users to create, edit, archive, and delete items from their shopping list.
 
-## Getting Started
+![App Screenshot](screenshots/01.jpg)
 
-This project is a starting point for a Flutter application.
+## Key Features:
+- **Add items** to your shopping list.
+- **Edit items** in the shopping list.
+- **Archive items** from the shopping list.
+- **Delete items** from either the shopping list or the archive.
+- **Toggle between the shopping list and archive** using the AppBar button.
+- **Automatic saving** of the shopping list and archive on the device.
+- **Supports the system theme** of the device.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation and Running:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   cd shopping_list_app
+   flutter pub get
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Testing:
+
+To run tests, use the following command:
+    flutter test
